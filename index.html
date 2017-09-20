@@ -11,10 +11,21 @@
 	<style>
 		body {
 			background-color: #ffffff;
-		}
+			display: flex; /* make sure it's at least as tall as the viewport */
+			min-height: 100vh; /* lay items out vertically */
+    		flex-direction: column;
+			}
+
+		section.content {
+   			 flex-grow: 1;
+			}
 
 		header {
 			
+		}
+
+		footer{
+
 		}
 
 		.button {
@@ -24,9 +35,17 @@
 		border-radius: 10px;
 		font-size: 12px;
 				}
+
+		.container	{
+			margin: 150px auto;
+			max-width: 800px;
+			padding: 20px;
+			display: flex;
+			flex-direction: row;
+		}
+
 	</style>
 	</head>
-
 
 	<body>
 		<header>
@@ -36,8 +55,19 @@
 			"Get it Now" (call to action button) - Black, 14px, 5px border radius -->
 			<img src="bg.jpg" alt="image" style="max-width:45%">
 			<a class="button" href"x">Get it now</a>
-		<header>	
+		</header>	
 
+		<article>
+			<div class="container" id="container">
+				<div class="item"><p>Slow carb iphone</p>
+				</div>
+				<div class="item"><p>Meggings</p>
+				</div>
+				<div class="item"><p>Farm to table</p>
+				</div>
+			</div>
+		</article>
 
+		<footer>Relaxr</footer>
 	</body>
 </html>

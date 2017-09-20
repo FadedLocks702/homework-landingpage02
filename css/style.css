@@ -26,12 +26,19 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-	background-color: #ffffff
+	background-color: #ffffff;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 
 }
 
 a {
   text-decoration: none;
+}
+
+section.content	{
+	flex-grow: 1;
 }
 
 

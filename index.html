@@ -15,32 +15,43 @@
 			min-height: 100vh; /* lay items out vertically */
     		flex-direction: column;
     		align-content: center;
-
-			}
-
-		section.content {
-   			 flex-grow: 1;
 			}
 
 		header {
 			background-image: url('bg.jpg');
-			background-position: left;
+			background-position: center;
 			background-size: cover;
 			max-width: 100%;
-			
+		}
+
+		h1 {
+			color: white;
+			display: block;
+			font-style: bold;
+			font-size: 40px;
+			margin-left: 80px;
+		}
+
+		h2 {
+			color: rgb(16,204,114);
+			display: block;
+			font-style: bold;
+			font-size: 30px;
+			margin-left: 80px;
+			padding-top: 100px;
 		}
 
 		footer{
 
 		}
 
-		.button {
+		.greenbutton {
 		color: white;
 		padding: 10px 80px 10px 80px;
 		background: rgb(16,204,114);
 		border-radius: 10px;
 		font-size: 12px;
-		margin-right: 50px;
+		margin-left: 80px;
 				}
 
 		.container	{
@@ -56,12 +67,13 @@
 
 	<body>
 		<header>
-			Relaxr <!--Hero section.  Include CTA button and huge hero banner -->
+			<h1>Relaxr</h1>
+			<h2>Get a piece of mind with a single tap</h2>
+			<a class="greenbutton" href"x">Get it now</a>
+			<!--Hero section.  Include CTA button and huge hero banner -->
 			<!-- "Relaxr" (logo/primary level heading) - Black, 40px
 			"Get piece of mind with a single tap" (secondary level heading) - Black, 36px
 			"Get it Now" (call to action button) - Black, 14px, 5px border radius -->
-			<img src="bg.jpg" alt="image" style="max-width:45%">
-			<a class="button" href"x">Get it now</a>
 		</header>	
 
 		<article>

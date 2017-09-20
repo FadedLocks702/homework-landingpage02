@@ -9,20 +9,25 @@ Developer @GA in NYC
 /******************************************
 /* SETUP
 /*******************************************/
+
 * {
   box-sizing: border-box; /* allows us to tell the browser how to measure our elements.  Now the width property includes content, padding, and border, instead of just the content*/
 }
+
+#hero {
+	width: 400px;
+	background-color: gray;
+}
+
+
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
 body {
+	background-color: #ffffff
 
-}
-
-#hero {
-	background-image: /images/bg.jpg;
 }
 
 a {

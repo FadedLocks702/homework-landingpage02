@@ -37,6 +37,18 @@ body {
 			font-family: 'Roboto', sans-serif;
 		}
 
+		#pagewrap {
+			padding: 5px;
+			width: 960px;
+			margin: 20px auto;
+		}
+
+		#slowcarbiphone {
+			width: 290px;
+			float: left;
+			padding: 5px 15px;
+		}
+
 		footer{
 
 		}

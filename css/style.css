@@ -1,52 +1,59 @@
-/*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
-*/
-
-
-/******************************************
-/* SETUP
-/*******************************************/
-
-* {
-  box-sizing: border-box; /* allows us to tell the browser how to measure our elements.  Now the width property includes content, padding, and border, instead of just the content*/
-}
-
-#hero {
-	width: 400px;
-	background-color: gray;
-}
-
-
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
 body {
-	background-color: #ffffff;
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
+			background-color: #ffffff;
+			display: flex; /* make sure it's at least as tall as the viewport */
+			min-height: 100vh; /* lay items out vertically */
+    		flex-direction: column;
+    		align-content: center;
+			}
 
-}
+		header {
+			background-image: url("bg.jpg");
+			height: 50%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
 
-a {
-  text-decoration: none;
-}
+		}
 
-section.content	{
-	flex-grow: 1;
-}
+		h1 {
+			color: white;
+			display: block;
+			font-style: bold;
+			font-size: 40px;
+			margin-left: 80px;
+		}
 
+		h2 {
+			color: rgb(16,204,114);
+			display: block;
+			font-style: bold;
+			font-size: 30px;
+			margin-left: 80px;
+			padding-top: 100px;
+		}
 
-/******************************************
-/* LAYOUT
-/*******************************************/
+		article {
+			font-family: 'Roboto', sans-serif;
+		}
 
+		footer{
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+		}
+
+		.greenbutton {
+		color: white;
+		padding: 10px 80px 10px 80px;
+		background: rgb(16,204,114);
+		border-radius: 10px;
+		font-size: 12px;
+		margin-left: 80px;
+				}
+
+		.container	{
+			margin: 150px auto;
+			max-width: 800px;
+			padding: 20px;
+			display: flex;
+			flex-direction: row;
+		}

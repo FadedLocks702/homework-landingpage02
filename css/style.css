@@ -3,12 +3,7 @@
 	body {
 			background-color: #ffffff;
 			font-family: 'Roboto', sans-serif;
-			/*
-			display: flex;
-			min-height: 200vh; 
-    		flex-direction: column;
-    		align-content: center;
-    		*/
+			font-color: #033048;
 			} 
 
 	header {
@@ -17,37 +12,74 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			position: relative;
-		}
+			}
+
+		.logo 	{
+				color: #FFF;
+				display: block;
+				font-size: 40px;
+				margin: 2em;
+				}
+
+		.secondary-text {
+				color: black;
+				display: block;
+				font-size: 36px;
+				margin: 2em;
+				}
+
+		.greenbutton {
+				color: black;
+				padding: 10px 80px 10px 80px;
+				background: rgb(16,204,114);
+				border-radius: 05px;
+				font-size: 14px;
+				margin-left: 80px;
+				text-decoration: none;
+				}
 
 	article	{
 		display: flex;
 		justify-content: center;
 		flex-wrap:	wrap;
-	}
-
-		.logo {
-			color: #FFF;
-			display: block;
-			font-size: 40px;
-			margin: 2em;
 		}
 
-		.secondary-text {
-			color: black;
-			display: block;
-			font-size: 36px;
-			margin: 2em;
+	h3	{
+		font-style:	bold;
+		font-size: 20px
 		}
 
-		.greenbutton {
-		color: black;
-		padding: 10px 80px 10px 80px;
-		background: rgb(16,204,114);
-		border-radius: 05px;
+	p {
 		font-size: 14px;
-		margin-left: 80px;
-		text-decoration: none;
-	}
+		font-weight: lighter;
+		font-color: rgb(142,149,146);
+		}
+
+				#slowcarbiphone {
+					width: 290px;
+					float: left;
+					padding: 5px 15px;
+				}
+
+				#meggings {
+					width: 294px;
+					float: left;
+					padding: 5px 15px;
+					margin: 0px 5px 5px 5px;
+				}
+
+				#farmtotable {
+					width: 270px;
+					padding: 5px 15px;
+					float: left;
+				}
+
+		.belowquote {
+			display: block;
+			width: 500px;
+			text-align: center;
+			font-size: 18px;
+		}
 
 		.bluebutton {
 			color: white;
@@ -58,60 +90,34 @@
 			text-decoration: none;
 				}
 
+				#quote {
+					font-style: italic;
+					font-weight: lighter;
+				}
+
+				#citation {
+					font-weight: medium;
+					font-size: 14px;
+				}
+
 		.pagewrap {
 			text-align: center;
 		}
 
-		#slowcarbiphone {
-			width: 290px;
-			float: left;
-			padding: 5px 15px;
-			font-size: 14px;
-		}
-
-		#meggings {
-			width: 294px;
-			float: left;
-			padding: 5px 15px;
-			margin: 0px 5px 5px 5px;
-			font-size: 14px;
-			font-style: light;
-		}
-
-		#farmtotable {
-			width: 270px;
-			padding: 5px 15px;
-			float: left;
-			font-size: 14px;
-			font-style: light;
-		}
-
-		
-		.subfooter {
-			display: block;
-			width: 500px;
-			text-align: center;
-			font-size: 18px;
-			font-style: light;
-		}
-
-		#quote {
-			font-style: italic;
-			font: 18px;	
-			font-weight: lighter;
-		}
-
-		h3	{
-			font-style:	bold;
-			font-size: 20px
-		}
-
-		#citation {
-			font-weight: medium;
-			font-size: 14px;
-		}
-
-		footer {
+	footer {
 			background-color: rgb(242,244,246);
-			font: black, 40px;
+			font-color: rgb(113,122,128);
 		}
+
+				#footer-logo	{
+					font-size: 40px;
+					color: black;
+					text-align: center;
+				}
+
+				#copyright-tag	{
+					font-size: 9px;
+					font-weight:bold;
+					text-align: center;
+				}
+		

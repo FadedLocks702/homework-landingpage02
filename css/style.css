@@ -1,9 +1,10 @@
 body {
 			background-color: #ffffff;
 			display: flex; /* make sure it's at least as tall as the viewport */
-			min-height: 100vh; /* lay items out vertically */
+			min-height: 200vh; /* lay items out vertically */
     		flex-direction: column;
     		align-content: center;
+    		font-family: 'Roboto', sans-serif;
 			}
 
 		header {
@@ -34,7 +35,7 @@ body {
 		}
 
 		article {
-			font-family: 'Roboto', sans-serif;
+			
 		}
 
 		#pagewrap {
@@ -49,7 +50,22 @@ body {
 			padding: 5px 15px;
 		}
 
+		#meggings {
+			width: 294px;
+			float: left;
+			padding: 5px 15px;
+			margin: 0px 5px 5px 5px;
+		}
+
+		#farmtotable {
+			width: 270px;
+			padding: 5px 15px;
+			float: left;
+		}
+
 		footer{
+			background: rgb(242,244,246);
+			font: black, 40px;
 
 		}
 
@@ -62,10 +78,12 @@ body {
 		margin-left: 80px;
 				}
 
-		.container	{
-			margin: 150px auto;
-			max-width: 800px;
-			padding: 20px;
-			display: flex;
-			flex-direction: row;
-		}
+		.bluebutton {
+		color: white;
+		padding: 10px 80px 10px 80px;
+		background: rgb(115,176,248);
+		border-radius: 10px;
+		font-size: 12px;
+		margin-left: 80px;
+				}
+

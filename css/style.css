@@ -3,7 +3,6 @@
 	body {
 			background-color: #ffffff;
 			font-family: 'Roboto', sans-serif;
-			font-weight: Light, Light Italix, Regular, Meduim, Bold, Black;
 			/*
 			display: flex;
 			min-height: 200vh; 
@@ -11,7 +10,6 @@
     		align-content: center;
     		*/
 			} 
-
 
 	header {
 			background-image: url("bg.jpg");
@@ -23,31 +21,37 @@
 
 		}
 
-		h1 {
-			color: white;
+		.whitelogotext {
+			color: #FFF;
 			display: block;
-			font-style: bold;
 			font-size: 40px;
-			margin-left: 80px;
+			margin: 2em;
+			font-weight: bold;
 		}
 
-		h2 {
+		.greenlogotext {
 			color: rgb(16,204,114);
 			display: block;
-			font-style: bold;
-			font-size: 30px;
-			margin-left: 80px;
-			padding-top: 100px;
+			font-weight: bold;
+			font-size: 36px;
+			margin: 2em;
+
 		}
 
-		article {
-			
-		}
+		.greenbutton {
+		color: black;
+		padding: 10px 80px 10px 80px;
+		background: rgb(16,204,114);
+		border-radius: 05px;
+		font-size: 14px;
+		margin-left: 80px;
+				}
 
-		#pagewrap {
+		.pagewrap {
 			padding: 5px;
-			width: 960px;
-			margin: 20px auto;
+			width: auto;
+			/*margin: auto;*/
+			text-align: center;
 		}
 
 		#slowcarbiphone {
@@ -69,20 +73,15 @@
 			float: left;
 		}
 
+		.subfooter {
+			clear: both;
+		}
+
 		footer{
 			background: rgb(242,244,246);
 			font: black, 40px;
 
 		}
-
-		.greenbutton {
-		color: white;
-		padding: 10px 80px 10px 80px;
-		background: rgb(16,204,114);
-		border-radius: 10px;
-		font-size: 12px;
-		margin-left: 80px;
-				}
 
 		.bluebutton {
 		color: white;

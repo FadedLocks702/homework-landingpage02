@@ -53,13 +53,12 @@
 	}
 
 		.bluebutton {
-		color: white;
-		padding: 10px 80px 10px 80px;
-		background: rgb(115,176,248);
-		border-radius: 10px;
-		font-size: 12px;
-		margin-left: 80px;
-		text-decoration: none;
+			color: white;
+			padding: 10px 80px 10px 80px;
+			background: rgb(115,176,248);
+			border-radius: 10px;
+			font-size: 12px;
+			text-decoration: none;
 				}
 
 		.pagewrap {
@@ -90,9 +89,8 @@
 			font-style: light;
 		}
 
-			}	
+		
 		.subfooter {
-			clear: both;
 			display: block;
 			width: 500px;
 			text-align: center;
@@ -100,9 +98,20 @@
 			font-style: light;
 		}
 
+		#quote {
+			font-style: italic;
+			font: 18px;	
+			font-weight: lighter;
+		}
+
 		h3	{
 			font-style:	bold;
 			font-size: 20px
+		}
+
+		#citation {
+			font-weight: medium;
+			font-size: 14px;
 		}
 
 		footer{

@@ -1,13 +1,19 @@
-body {
+	
+	
+	body {
 			background-color: #ffffff;
-			display: flex; /* make sure it's at least as tall as the viewport */
-			min-height: 200vh; /* lay items out vertically */
+			font-family: 'Roboto', sans-serif;
+			font-weight: Light, Light Italix, Regular, Meduim, Bold, Black;
+			/*
+			display: flex;
+			min-height: 200vh; 
     		flex-direction: column;
     		align-content: center;
-    		font-family: 'Roboto', sans-serif;
-			}
+    		*/
+			} 
 
-		header {
+
+	header {
 			background-image: url("bg.jpg");
 			height: 50%;
 			background-position: center;

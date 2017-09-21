@@ -13,13 +13,19 @@
 
 	header {
 			background-image: url("bg.jpg");
-			height: 50%;
+			height: 75%;
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			position: relative;
 
 		}
+
+	article	{
+		display: flex;
+		justify-content: center;
+		flex-wrap:	wrap;
+	}
 
 		.whitelogotext {
 			color: #FFF;
@@ -45,12 +51,20 @@
 		border-radius: 05px;
 		font-size: 14px;
 		margin-left: 80px;
+		text-decoration: none;
+	}
+
+		.bluebutton {
+		color: white;
+		padding: 10px 80px 10px 80px;
+		background: rgb(115,176,248);
+		border-radius: 10px;
+		font-size: 12px;
+		margin-left: 80px;
+		text-decoration: none;
 				}
 
 		.pagewrap {
-			padding: 5px;
-			width: auto;
-			/*margin: auto;*/
 			text-align: center;
 		}
 
@@ -73,22 +87,19 @@
 			float: left;
 		}
 
+
+				}
+
 		.subfooter {
 			clear: both;
+			display: block;
+			text-align: center;
 		}
 
 		footer{
-			background: rgb(242,244,246);
+			background-color: rgb(242,244,246);
 			font: black, 40px;
-
 		}
 
-		.bluebutton {
-		color: white;
-		padding: 10px 80px 10px 80px;
-		background: rgb(115,176,248);
-		border-radius: 10px;
-		font-size: 12px;
-		margin-left: 80px;
-				}
+		
 

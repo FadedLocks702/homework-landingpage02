@@ -13,7 +13,6 @@
 
 	header {
 			background-image: url("bg.jpg");
-			height: 75%;
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -26,18 +25,16 @@
 		flex-wrap:	wrap;
 	}
 
-		.whitelogotext {
+		.logo {
 			color: #FFF;
 			display: block;
 			font-size: 40px;
 			margin: 2em;
-			font-weight: bold;
 		}
 
-		.greenlogotext {
-			color: rgb(16,204,114);
+		.secondary-text {
+			color: black;
 			display: block;
-			font-weight: bold;
 			font-size: 36px;
 			margin: 2em;
 		}

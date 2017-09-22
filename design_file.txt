@@ -31,11 +31,11 @@ Copyright copy
 
 ****FONT WEIGHTS & SIZES****
 
-Font: Roboto
+Font: Roboto - done
 Weight: Light, Light Italic, Regular, Medium, Bold, Black
 
 
-"Relaxr" (logo/primary level heading) - Black, 40px
+"Relaxr" (logo/primary level heading) - Black, 40px - done
 
 "Get piece of mind with a single tap" (secondary level heading) - Black, 36px
 
@@ -45,12 +45,12 @@ Paragraph headings (tertiary level heading) - Bold, 20px
 
 Paragraph text - Light, 14px (main paragraph text)
 
-"Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work." - Light Italic, 18px (quote)
+"Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work." - Light Italic, 18px (quote) - done
 
 “ - Amanda, Intuit” - medium, 14px (citation)
 
 "Sign Up Now!" - black, 14px, 5px border radius (call to action button)
 
-Relaxr logo - black, 40px (footer logo)
+Relaxr logo - black, 40px (footer logo) 
 
 "Copyright 2017. Relaxr." - bold, 9px (copyright tag)

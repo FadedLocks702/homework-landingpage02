@@ -1,4 +1,4 @@
-	
+
 	
 	body {
 			background-color: #ffffff;
@@ -17,6 +17,7 @@
 		.relaxr-logo 	{
 				color: #FFF;
 				display: block;
+				font-weight: bold;
 				font-size: 40px;
 				margin: 2em;
 				padding: 25px;

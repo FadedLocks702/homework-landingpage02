@@ -1,6 +1,4 @@
-
-	
-	body {
+body 	{
 			background-color: #ffffff;
 			font-family: 'Roboto', sans-serif;
 			font-color: #033048;
@@ -16,7 +14,6 @@
 
 		.relaxr-logo 	{
 				color: #FFF;
-				display: block;
 				font-weight: bold;
 				font-size: 40px;
 				margin: 2em;
@@ -25,7 +22,6 @@
 
 		.secondary-text {
 				color: rgb(16,204,114);
-				display: block;
 				font-size: 36px;
 				margin: 3em;
 				}
@@ -124,4 +120,4 @@
 					font-weight:bold;
 					text-align: center;
 				}
-		
+				

@@ -1,0 +1,170 @@
+
+body {
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+	grid-template-rows:	100px 600px	100px;
+	grid-gap: 25px;
+	grid-template-areas:	"header header header"
+							"left-nav article partners-section"
+							"footer footer footer";
+}
+
+header, aside, article, footer {
+	background-color: gray;
+}
+
+header {
+	grid-area: header;
+	display: flex:
+	justify-content: space-between;
+	align-items: center;
+}
+
+aside {
+	grid-area: aside;
+	display: flex;
+	justify-content: space-between;
+}
+
+#left-nav	{
+	grid-area: left-nav;
+}
+
+#partners-section {
+	grid-area: partners-section;
+}
+
+article {
+	grid-area: article;
+}
+
+footer {
+	grid-area: footer;
+}
+
+
+
+
+/*body 	{
+			background-color: #ffffff;
+			font-family: 'Roboto', sans-serif;
+			font-color: #033048;
+			} 
+
+	header {
+			background-image: url("bg.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			}
+
+		.relaxr-logo 	{
+				color: #FFF;
+				font-weight: bold;
+				font-size: 40px;
+				margin: 2em;
+				padding: 25px;
+				}
+
+		.secondary-text {
+				color: rgb(16,204,114);
+				font-size: 36px;
+				margin: 3em;
+				}
+
+		.green-cta {
+				color: black;
+				padding: 10px 80px 10px 80px;
+				background: rgb(16,204,114);
+				border-radius: 05px;
+				font-size: 14px;
+				margin: 8em;
+				text-decoration: none;
+				border-style: groove;
+				}
+
+	article	{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap:	wrap;
+		text-align: center;
+		}
+
+	h3	{
+		font-style:	bold;
+		font-size: 20px
+		}
+
+	p {
+		font-size: 14px;
+		font-weight: lighter;
+		font-color: rgb(142,149,146);
+		}
+
+				#slowcarbiphone {
+					width: 290px;
+					float: left;
+					padding: 5px 15px;
+					flex-basis: auto;
+				}
+
+				#meggings {
+					width: 294px;
+					float: left;
+					padding: 5px 15px;
+					margin: 0px 5px 5px 5px;
+				}
+
+				#farmtotable {
+					width: 270px;
+					padding: 5px 15px;
+					float: left;
+					flex-basis: auto;
+				}
+
+		.container{
+			display: block;
+			width: 500px;
+			margin: auto;
+			text-align: center;
+			font-size: 18px;
+		}
+
+		.blue-cta {
+			color: black;
+			padding: 10px 80px 10px 80px;
+			background: rgb(115,176,248);
+			border-radius: 5px;
+			font-size: 14px;
+			text-decoration: none;
+			border-style: groove;
+				}
+
+				#quote {
+					font-style: italic;
+					font-weight: lighter;
+				}
+
+				#citation {
+					font-weight: medium;
+					font-size: 14px;
+				}
+
+	footer {
+			background-color: rgb(242,244,246);
+			font-color: rgb(113,122,128);
+		}
+
+				#footer-logo	{
+					font-size: 40px;
+					color: black;
+					text-align: center;
+				}
+
+				#copyright-tag	{
+					font-size: 9px;
+					font-weight:bold;
+					text-align: center;
+				}
+				*/

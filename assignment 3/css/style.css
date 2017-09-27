@@ -4,7 +4,7 @@ body {
 	font-color: #033048;
 	display: grid;
 	grid-template-columns: 25% 50% 25%;
-	grid-template-rows:	100px 600px	100px;
+	grid-template-rows:	150px 600px	100px;
 	grid-gap: 25px;
 	grid-template-areas:	"header header header"
 							"left-nav article partners-section"
@@ -16,23 +16,29 @@ header, aside, article, footer {
 }
 
 header {
+		grid-area: header;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		color: #feffff;
 }
 
 h1 {
+	flex: .25;
 	font-weight: 800;
 	font-size: 1.5em;
+	text-align: center;
 }
 
-/*header, nav {
-	text-align: right;
-	font-family: 'Open Sans Condensed', sans-serif;
-}*/
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
 
 nav {
-	flex:1;
+	flex: .5;
+	text-align: right;
 }
 
 header ul li {

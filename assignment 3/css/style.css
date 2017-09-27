@@ -1,5 +1,7 @@
 
 body {
+	font-family: 'Roboto', sans-serif;
+	font-color: #033048;
 	display: grid;
 	grid-template-columns: 25% 50% 25%;
 	grid-template-rows:	100px 600px	100px;
@@ -15,9 +17,28 @@ header, aside, article, footer {
 
 header {
 	grid-area: header;
+	color: #feffff;
 	display: flex:
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
+}
+
+h1 {
+/*	flex: .5;*/
+	text-align: center;
+	font-weight: 800;
+	font-size: 1.5em;
+}
+
+header, nav {
+	text-align: right;
+/*	flex: 1;*/
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header ul li {
+	list-style: none;
+	display: inline-block;
 }
 
 aside {

@@ -60,6 +60,14 @@ aside {
 	grid-area: partners-section;
 }
 
+.partners-section-container img {
+	display: block;
+	width: 200px;
+	padding: 10px;
+}
+
+
+
 article {
 	grid-area: article;
 }

@@ -4,7 +4,7 @@ body {
 	font-color: #033048;
 	display: grid;
 	grid-template-columns: 15% 70% 15%;
-	grid-template-rows:	150px 600px	100px;
+	grid-template-rows:	150px 1000px 100px;
 	grid-gap: 25px;
 	grid-template-areas:	"header header header"
 							"left-nav article partners-section"
@@ -66,10 +66,9 @@ aside {
 	padding: 10px;
 }
 
-
-
-article {
+article img {
 	grid-area: article;
+	width: 525px;
 }
 
 footer {

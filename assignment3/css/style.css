@@ -3,8 +3,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-color: #033048;
 	display: grid;
-	grid-template-columns: 15% 70% 15%;
-	grid-template-rows:	150px 1000px 100px;
+	grid-template-columns: 15% 65% 25%;
+	grid-template-rows:	150px 1500px 100px;
 	grid-gap: 25px;
 	grid-template-areas:	"header header header"
 							"left-nav article partners-section"
@@ -12,7 +12,7 @@ body {
 }
 
 aside, article, footer {
-	background-color: gray;
+	background-color: white;
 }
 
 header {
@@ -28,9 +28,9 @@ header {
 }
 
 h1 {
-	flex: .25;
+	flex: .20;
 	font-weight: 800;
-	font-size: 1.5em;
+	font-size: 2em;
 	text-align: center;
 }
 
@@ -41,7 +41,7 @@ ul {
 }
 
 nav {
-	flex: .5;
+	flex: .25;
 	text-align: right;
 }
 
@@ -57,22 +57,33 @@ aside {
 }
 
 .left-nav-container ul {
-	display: block
+	display: block;
+}
+
+.left-nav-container li {
+	margin: 5px;
 }
 
 #partners-section {
 	grid-area: partners-section;
+	text-align: center;
 }
 
 .partners-section-container img {
 	display: block;
-	width: 200px;
+	width: 65%;
 	padding: 10px;
+	margin: auto;
 }
 
 article img {
 	grid-area: article;
-	width: 525px;
+	width: 85%;
+	height: auto;
+}
+
+article p {
+	width: 95%;
 }
 
 footer {

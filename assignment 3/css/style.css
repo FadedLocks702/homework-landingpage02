@@ -3,7 +3,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-color: #033048;
 	display: grid;
-	grid-template-columns: 25% 50% 25%;
+	grid-template-columns: 15% 70% 15%;
 	grid-template-rows:	150px 600px	100px;
 	grid-gap: 25px;
 	grid-template-areas:	"header header header"
@@ -43,23 +43,17 @@ nav {
 
 header ul li {
 	list-style: none;
-	display: inline-block;
 }
-
 aside {
 	grid-area: aside;
 }
 
-#left-nav	{
+#left-nav{
 	grid-area: left-nav;
 }
 
-#left-nav ul li {
-	display: block;
-}
-
-.left-nav-container {
-	display: block;
+.left-nav-container ul {
+	display: block
 }
 
 #partners-section {

@@ -48,12 +48,18 @@ header ul li {
 
 aside {
 	grid-area: aside;
-	display: flex;
-	justify-content: space-between;
 }
 
 #left-nav	{
 	grid-area: left-nav;
+}
+
+#left-nav ul li {
+	display: block;
+}
+
+.left-nav-container {
+	display: block;
 }
 
 #partners-section {

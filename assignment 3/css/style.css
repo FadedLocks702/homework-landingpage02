@@ -16,24 +16,23 @@ header, aside, article, footer {
 }
 
 header {
-	grid-area: header;
-	color: #feffff;
-	display: flex:
-	justify-content: space-around;
-	align-items: center;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 }
 
 h1 {
-/*	flex: .5;*/
-	text-align: center;
 	font-weight: 800;
 	font-size: 1.5em;
 }
 
-header, nav {
+/*header, nav {
 	text-align: right;
-/*	flex: 1;*/
 	font-family: 'Open Sans Condensed', sans-serif;
+}*/
+
+nav {
+	flex:1;
 }
 
 header ul li {

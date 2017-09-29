@@ -2,9 +2,21 @@
 			background-color: #ffffff;
 			font-family: 'Roboto', sans-serif;
 			font-color: #033048;
-			} 
+			}
 
-	header {
+	body, #landing-page {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 800px 200px 200px 100px;
+	grid-gap: 25px;
+	grid-template-areas: 	"header"
+							"article"
+							"container"
+							"footer";
+}
+
+	header, #landing-page {
+			grid-area: header;
 			background-image: url("bg.jpg");
 			background-position: center;
 			background-repeat: no-repeat;

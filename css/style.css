@@ -63,12 +63,6 @@ header#landing-header div{
   flex:2;
 }
 
-header .relaxr-logo {
-  	color: #fff;
-  	flex: 1;
-  	padding-top: 25px;
-}
-
 header h2 {
   font-size: 36px;
   color: #5FDEA1;
@@ -112,6 +106,8 @@ header h2 {
 }
 
 #testemonial {
+	display: flex;
+  	justify-content: space-around;
 	padding: 40px 0 70px;
   	color: rgb(142,149,146);
 			}

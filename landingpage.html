@@ -2,46 +2,50 @@
 <html>
 	<head>
     	<meta charset="utf-8">
-    	<meta name="The landing page" content="Assignment #2">
-		<title>First Attempt Landing Page</title>
+    	<meta name="Trying to repair this landing page after sharing the css with assignment 3 yo." content="Assignment #2">
+		<title>Second Attempt Landing Page</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href=css/style.css>
-
+		<link rel="stylesheet" href=css/normalize.css>
+		<!-- <link rel="stylesheet" href="css/reset.css"> -->
 	</head>
 
-	<body>
-		<header id="landing-page">
-			<div class="relaxr-logo">That New New!</div>
-
-			<div class="secondary-text">Get a piece of mind with a single tap</div>
-
-			<a class="green-cta" href="blog.html">Get it now</a>
+	<body id="landing-2-page">
+		<header id="landing-header">
+			<h1 class="relaxr-logo">That New New!</h1>
+			<div>
+				<h2>Get a piece of mind with a single tap</h2>
+				<a class="cta primary" href="blog.html">Get it now</a>
+			<div>
 		</header>
-
-		<article>
-				<section id="slowcarbiphone">
+		
+		<section id="landing-article">
+				<div>
 					<h3>Slow-carb iPhone</h3>
 					<p>Slow-carb iPhone normcore, chillwave single-origin coffee edison bulb small batch venmo whatever shabby chic la croix raw denim asymmetrical literally adaptogen.</p>
-				</section>
+				</div>
 
-				<section id="meggings">
+				<div>
 					<h3>Meggings</h3>
 					<p>Swag chillwave meggings, venmo authentic trust fund retro craft beer scenester DIY.</p>
-				</section>
+				</div>
 				
-				<section id="farmtotable">
+				<div>
 					<h3>Farm to table</h3>
 					<p>Drinking vinegar mumblecore willamsburg, sartorial farm-to-table food truck before they sold out copper mug fixie actually.  Ethical polaroid air plant tote bag hoodie listicle venmo williamsburg.</p>
-				</section>
-		</article>
+				</div>
+		</section>
 
-			<div class="container">
-					<a class="blue-cta" href="#">Sign up now!</a><br><br><br>
-					<div id="quote">"Relaxr changed my life.  I've been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work."</div><br>
-					
-					<div id="citation">-Amanda, Intuit</div><br>
-			</div>
+		<aside id="landing-aside">
+		<a class="cta secondary" href="#">Sign up now!</a>
+		</aside>
+
+		<section id="testemonial">
+				<blockquote>"Relaxr changed my life.  I've been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work."
+				<cite>-Amanda, Intuit</cite>
+				</blockquote>
+		</section>
 
 		<footer>
 			<div id="footer-logo">Relaxr</div>

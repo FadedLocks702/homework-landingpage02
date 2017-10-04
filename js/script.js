@@ -20,6 +20,16 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$("#blogtwo-show").click(function(){
+
+		var $this = $(this);
+		$this.toggleClass("#blogtwo-show");
+		if($this.hasClass("#blogtwo-show")){
+			$this.text('Read less');
+
+		} else {
+			$this.text('Read more');
+		}
+
 		$("#blogtwo-extend").slideToggle();
 	});
 });

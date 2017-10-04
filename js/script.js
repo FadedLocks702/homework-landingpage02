@@ -1,8 +1,11 @@
 
 // by default, blog one is expanded
 
+
+
 $(document).ready(function(){
 	$("#blogone-hide").click(function(){
+		event.preventDefault();
 
 		var $this = $(this);
 		$this.toggleClass("#blogone-hide");
@@ -13,13 +16,14 @@ $(document).ready(function(){
 			$this.text('Read less');
 		}
 
-		$("#blogone-paragraph").slideToggle();
+		$("#first-read-more-text").slideToggle();
 	});
 });
 // by default, blog two is collapsed
 
 $(document).ready(function(){
 	$("#blogtwo-show").click(function(){
+		event.preventDefault();
 
 		var $this = $(this);
 		$this.toggleClass("#blogtwo-show");
@@ -30,9 +34,10 @@ $(document).ready(function(){
 			$this.text('Read more');
 		}
 
-		$("#blogtwo-extend").slideToggle();
+		$("#second-read-more-text").slideToggle();
 	});
 });
+
 
 // when user clicks on the first 'read less' then the respective article collpases and the 'read more' link changes to 'read less'
 

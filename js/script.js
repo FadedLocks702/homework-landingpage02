@@ -3,6 +3,16 @@
 
 $(document).ready(function(){
 	$("#blogone-hide").click(function(){
+
+		var $this = $(this);
+		$this.toggleClass("#blogone-hide");
+		if($this.hasClass("#blogone-hide")){
+			$this.text('Read more');
+
+		} else {
+			$this.text('Read less');
+		}
+
 		$("#blogone-paragraph").slideToggle();
 	});
 });

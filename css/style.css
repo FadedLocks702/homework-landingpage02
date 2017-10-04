@@ -253,6 +253,13 @@ footer {
 	text-align: center;
 	}
 
+/*******THE JAVASCRIPT AND JQUERY ASSIGNMENT
+****/
 
+#blogone-hide {
+	margin-top: 5px;
+}
 
-
+#blogtwo-extend {
+	display: none;
+}

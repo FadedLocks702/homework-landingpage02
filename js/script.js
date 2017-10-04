@@ -1,18 +1,22 @@
-/*
 
-by default, the blog entries are collapsed
-when user clicks on the first 'read more' then the respective article collpases and the 'read more' link changes to 'read less'
-when user clicks on the second 'read more' then the respective article collpases and the 'read more' link changes to 'read less'
+// by default, blog one is expanded
 
-*/
+$(document).ready(function(){
+	$("#blogone-hide").click(function(){
+		$("#blogone-paragraph").slideToggle();
+	});
+});
+// by default, blog two is collapsed
 
-/*BEGIN ASSIGNMENT
+$(document).ready(function(){
+	$("#blogtwo-show").click(function(){
+		$("#blogtwo-extend").slideToggle();
+	});
+});
 
-$(document).ready(function() {
+// when user clicks on the first 'read less' then the respective article collpases and the 'read more' link changes to 'read less'
 
-	console.log($("article").height());
 
-$("article").css ()
-}
+// when user clicks on the second 'read more' then the respective article collpases and the 'read less' link changes to 'read more'
 
-*/
+

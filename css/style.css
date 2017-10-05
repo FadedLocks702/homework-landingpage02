@@ -1,6 +1,5 @@
 
 * {
-
   box-sizing: border-box; 
 }
 
@@ -24,10 +23,6 @@ body {
 	grid-template-areas:	"header header header"
 							"left-nav article partners-section"
 							"footer footer footer";
-}
-
-a {
-	text-decoration: none;
 }
 
 /************************** 
@@ -155,6 +150,10 @@ THE BLOG ASSIGNMENT
 *****************************
 */
 
+a, a:visited {
+	text-decoration: none;
+}
+
 aside, article, footer {
 	background-color: white;
 }
@@ -253,21 +252,12 @@ footer {
 	text-align: center;
 	}
 
-/*******THE JAVASCRIPT AND JQUERY ASSIGNMENT
-****/
+/*******THE JAVASCRIPT AND JQUERY ASSIGNMENT ******/
 #first-read-more-text {
 	display: none;
 }
 
 #second-read-more-text {
-	display: none;
-}
-
-#blogone-hide {
-	margin-top: 5px;
-}
-
-#blogtwo-extend {
 	display: none;
 }
 

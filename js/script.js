@@ -1,17 +1,16 @@
 
-/*
 
-1.event.preventDefault() function - done
-2. $.ready() function - done
-3. select DOM elements with CSS selectors upon a user's click of the $.click() handler
-*/
 $( document ).ready(function() {
         console.log( "document loaded" );
     });
 
+/////**The initial sliding down **//////
+
 $("#blog-one").click(function(){
 	$("#first-read-more-text").slideDown("fast");
 });
+
+///** Hiding the link after it goes down **//////////
 
 function hideblog1link(){
 	$("#blog-one").hide()
@@ -19,18 +18,18 @@ function hideblog1link(){
 
 $("#blog-one").click(hideblog1link);
 
+/////** Replacing the now hidden link with the new text **/////
+
 function replaceWith(){
 	$("#replace-1").show()
 }
 $("#blog-one").click(replaceWith)
 
-/*5. Show the second blog paragraph using slidedown and show.*/
+//////** Repeating the same with the second blog entry **///////
 
 $("#blog-two").click(function(){
 	$("#second-read-more-text").slideDown("fast");
 });
-
-/*6. Hide the relevant "Read More" link using $.hide() */
 
 function hideblog2link(){
 	$("#blog-two").hide()
@@ -42,14 +41,11 @@ function replacewith(){
 }
 $("#blog-two").click(replacewith)
 
-/** 7. Have the first blog text slide up and hide the 'read less' link using $.slideUp() and $.hide()
-**/
 
 $("#replace-1").click(function(){
-	$("#first-read-more-text").slideUp();
+	$("#first-read-more-text").slideUp("fast");
 });
 
-/**8. Show the relevant read more link using $.show() */
 function replaceWith001(){
 	$("#blog-one").show()
 }
@@ -60,9 +56,8 @@ function hidereplace1link(){
 }
 $("#replace-1").click(hidereplace1link)
 
-/**9. and 10. Repeat for the second blog.**/
 $("#replace-2").click(function(){
-	$("#second-read-more-text").slideUp();
+	$("#second-read-more-text").slideUp("fast");
 });
 
 function replaceWith002(){
@@ -76,7 +71,7 @@ function hidereplace2link(){
 $("#replace-2").click(hidereplace2link)
 
 
-
+// This was the initial assignment of what I was going to send after giving up on the assignment. Feel free to share thoughts on this older code. //
 // $(document).ready(function(){
 // 	$("#blogone-hide").click(function(){
 // 		event.preventDefault();

@@ -19,7 +19,7 @@ body {
 	font-color: #033048;
 	display: grid;
 	grid-template-columns: 15% 65% 15%;
-	grid-template-rows:	150px 1500px 100px;
+	grid-template-rows:	150px auto 100px;
 	grid-gap: 25px;
 	grid-template-areas:	"header header header"
 							"left-nav article partners-section"

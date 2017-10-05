@@ -1,5 +1,53 @@
 
-// by default, blog one is expanded
+/*RUBRIC
+
+1.event.preventDefault() function - done
+2. $.ready() function - done
+3. select DOM elements with CSS selectors upon a user's click of the $.click() handler
+*/
+
+$("#blog-one").click(slidedown);
+
+function slidedown(){
+	$("#first-read-more-text").show()
+}
+
+/*4. Hide the relevant "Read More" link using $.hide()*/
+
+function hideblog1link(){
+	$("#blog-one").hide()
+}
+
+$("#blog-one").click(hideblog1link);
+
+function replaceWith(){
+	$(".replace").show()
+}
+$("#blog-one").click(replaceWith)
+
+/*5. Show the second blog paragraph using slidedown and show.*/
+
+$("#blog-two").click(slideDown);
+
+function slideDown(){
+	$("#second-read-more-text").show()
+}
+
+/*6. Hide the relevant "Read More" link using $.hide() */
+
+function hideblog2link(){
+	$("#blog-two").hide()
+}
+$("#blog-two").click(hideblog2link);
+
+function replacewith(){
+	$(".replace").show()
+}
+$("#blog-two").click(replacewith)
+
+/*7. Have the first blog text slide up andd hide the 'read less' link using $.slideUp() and $.hide()
+*/
+
 
 
 
@@ -38,24 +86,7 @@
 // 	});
 // });
 
-/*RUBRIC
 
-1.event.preventDefault() function - done
-2. $.ready() function - done
-3. select DOM elements with CSS selectors upon a user's click of the $.click() handler
-*/
-
-$("#blogone-hide").click(slideDown);
-
-function slideDown(){
-	$("#first-read-more-text").show()
-}
-
-function hideblog1text(){
-	$("#blogone-hide").hide()
-}
-
-$("#blogone-hide").click(hideblog1text);
 
 // $("#blogtwo-show").click()
 

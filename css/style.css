@@ -259,6 +259,9 @@ footer {
 	display: none;
 }
 
+#second-read-more-text {
+	display: none;
+}
 
 #blogone-hide {
 	margin-top: 5px;
@@ -268,6 +271,7 @@ footer {
 	display: none;
 }
 
-/*#first-read-more-text {
-	display: none;
-}*/
+.replace {
+	display:none;
+}
+

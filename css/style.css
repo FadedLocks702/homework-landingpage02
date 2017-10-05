@@ -255,6 +255,10 @@ footer {
 
 /*******THE JAVASCRIPT AND JQUERY ASSIGNMENT
 ****/
+#first-read-more-text {
+	display: none;
+}
+
 
 #blogone-hide {
 	margin-top: 5px;

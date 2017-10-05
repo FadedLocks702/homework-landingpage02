@@ -21,7 +21,7 @@ function hideblog1link(){
 $("#blog-one").click(hideblog1link);
 
 function replaceWith(){
-	$(".replace").show()
+	$("#replace-1").show()
 }
 $("#blog-one").click(replaceWith)
 
@@ -41,13 +41,26 @@ function hideblog2link(){
 $("#blog-two").click(hideblog2link);
 
 function replacewith(){
-	$(".replace").show()
+	$("#replace-2").show()
 }
 $("#blog-two").click(replacewith)
 
-/*7. Have the first blog text slide up andd hide the 'read less' link using $.slideUp() and $.hide()
-*/
+/** 7. Have the first blog text slide up andd hide the 'read less' link using $.slideUp() and $.hide()
+**/
+$("#replace-1").click(function(){
+	$("#first-read-more-text").slideUp();
+});
 
+/**8. Show the relevant read more link using $.show() */
+function replaceWith001(){
+	$("#blog-one").show()
+}
+$("#replace-1").click(replaceWith001)
+
+function hidereplace1link(){
+	$("#replace-1").hide()
+}
+$("#replace-1").click(hidereplace1link)
 
 
 

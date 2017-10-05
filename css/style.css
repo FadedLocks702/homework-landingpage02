@@ -271,7 +271,10 @@ footer {
 	display: none;
 }
 
-.replace {
+#replace-1 {
 	display:none;
 }
 
+#replace-2 {
+	display:none;
+}
